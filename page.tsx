@@ -1,19 +1,45 @@
 import React from 'react'
+import cssStyles from "./Freelancingservics.module.css"
 
-function ContactusPage  ()  {
+console.log(cssStyles,"CSS-Styles")
+
+function Freelancingservicespage ()  {
   return (
-    <div>
-      <h1>Contact us</h1>
-      <h2>Email</h2>
-      <p>imranhassankhannzada@gmail.com</p>
-      <h3>facebook</h3>
-      <p>imranhassan/facebook.com</p>
-      <h4>twitter</h4>
-      <p>imranhassan/twitter.com</p>
-      <h5>instagram</h5>
-      <p>imranhassan/instagram.com</p>
+    <div className='free'>
+      <h1 className={cssStyles.free}><i><b>Our freelancing services</b></i></h1>
+      <h2>Freelancing services</h2>
+      <p>we are dedicated and experiene (5 years) [Graphics designing, content writing,SEO,Video editing,wordpress website developer,Digital marketing]
+        we are specialize in list key skills service, and we are passionate about helping clients achieve their gols through innovative
+        and effective solutions
+
+        <h1 >service we offer </h1><br/>
+        <ul>
+            <li>Graphics designing</li><br/>
+            <li> Content writing</li><br/>
+            <li>SEO</li><br/>
+            <li>Video editing</li><br/>
+            <li>wordpress website developer</li><br/>
+            <li>Digital marketing</li><br/>
+        </ul>
+      </p>
     </div>
+    
   )
 }
 
-export default ContactusPage
+export default  Freelancingservicespage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
